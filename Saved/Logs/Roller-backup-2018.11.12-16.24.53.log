@@ -1,0 +1,799 @@
+﻿[2016.08.05-20.03.49:910][  0]Log file open, 08/05/16 21:03:49
+[2016.08.05-20.03.49:910][  0]LogInit:Display: Running engine for game: Roller
+[2016.08.05-20.03.49:910][  0]LogPlatformFile: Not using cached read wrapper
+[2016.08.05-20.03.49:910][  0]LogInit:Display: RandInit(1420553632) SRandInit(1420553634).
+[2016.08.05-20.03.49:910][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.08.05-20.03.49:910][  0]LogStats: Stats thread started at 0.074575
+[2016.08.05-20.03.49:910][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.08.05-20.03.49:910][  0]LogInit: API Version: 2758231
+[2016.08.05-20.03.49:910][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.08.05-20.03.49:910][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.08.05-20.03.49:910][  0]LogInit: Build Configuration: Development
+[2016.08.05-20.03.49:910][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.08.05-20.03.49:910][  0]LogInit: Command line: -EpicPortal 
+[2016.08.05-20.03.49:910][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.08.05-20.03.49:910][  0]LogInit: Rocket: 1
+[2016.08.05-20.03.49:918][  0]LogInit: Using libcurl 7.41.0
+[2016.08.05-20.03.49:918][  0]LogInit:  - built for x86_64-pc-win32
+[2016.08.05-20.03.49:918][  0]LogInit:  - supports SSL with WinSSL
+[2016.08.05-20.03.49:918][  0]LogInit:  - other features:
+[2016.08.05-20.03.49:918][  0]LogInit:      CURL_VERSION_SSL
+[2016.08.05-20.03.49:918][  0]LogInit:      CURL_VERSION_IPV6
+[2016.08.05-20.03.49:918][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.08.05-20.03.49:918][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.08.05-20.03.49:918][  0]LogInit:      CURL_VERSION_IDN
+[2016.08.05-20.03.49:918][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.08.05-20.03.49:918][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.08.05-20.03.49:918][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.08.05-20.03.49:918][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.08.05-20.03.49:918][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.08.05-20.03.49:924][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.05-20.03.49:929][  0]LogInit: Object subsystem initialized
+[2016.08.05-20.03.49:929][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.05-20.03.49:929][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.05-20.03.49:935][  0]LogInit: Computer: DESKTOP-3RUCDJT
+[2016.08.05-20.03.49:935][  0]LogInit: User: Paul
+[2016.08.05-20.03.49:935][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.08.05-20.03.49:935][  0]LogInit: High frequency timer resolution =3.903996 MHz
+[2016.08.05-20.03.49:935][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.05-20.03.49:935][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.03.49:935][  0]LogMemory: Process Physical Memory: 56.52 MB used, 56.52 MB peak
+[2016.08.05-20.03.49:935][  0]LogMemory: Process Virtual Memory: 58.71 MB used, 58.71 MB peak
+[2016.08.05-20.03.49:935][  0]LogMemory: Physical Memory: 3673.38 MB used, 8133.75 MB total
+[2016.08.05-20.03.49:935][  0]LogMemory: Virtual Memory: 385.77 MB used, 134217728.00 MB total
+[2016.08.05-20.03.49:968][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.08.05-20.03.50:339][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 (Feature Level 11_0)
+[2016.08.05-20.03.50:340][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 4066MB of shared system memory, 2 output[s]
+[2016.08.05-20.03.50:341][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.08.05-20.03.50:341][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4066MB of shared system memory, 0 output[s]
+[2016.08.05-20.03.50:341][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.05-20.03.50:345][  0]LogD3D11RHI: !Direct3DDevice
+[2016.08.05-20.03.50:345][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.05-20.03.50:358][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.05-20.03.50:368][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Intermediate/Shaders/WorkingDirectory/9136/).
+[2016.08.05-20.03.50:368][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Paul/AppData/Local/Temp/UnrealShaderWorkingDir/B849CCCA4E95D2DADDB39B9ABDB9BD1F/'.
+[2016.08.05-20.03.50:368][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.05-20.03.51:020][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.05-20.03.51:023][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.05-20.03.51:027][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.05-20.03.51:030][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.05-20.03.51:034][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.05-20.03.51:037][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.05-20.03.51:039][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.05-20.03.51:042][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.05-20.03.51:044][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.05-20.03.51:047][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.05-20.03.51:050][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.05-20.03.51:055][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.05-20.03.51:055][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.05-20.03.51:055][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.05-20.03.51:070][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.05-20.03.51:074][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.05-20.03.51:076][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.05-20.03.51:079][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.05-20.03.51:079][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.05-20.03.51:138][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.05-20.03.51:172][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Paul/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.08.05-20.03.51:173][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Paul/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.08.05-20.03.51:173][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.05-20.03.51:173][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.05-20.03.51:173][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.05-20.03.51:173][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.05-20.03.51:218][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.05-20.03.51:230][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Paul/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.05-20.03.51:394][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.05-20.03.51:396][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.05-20.03.51:532][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.05-20.03.51:532][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.05-20.03.51:701][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.05-20.03.52:463][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.05-20.03.52:554][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2016.08.05-20.03.52:684][  0]SourceControl: Info Source control is disabled
+[2016.08.05-20.03.52:685][  0]SourceControl: Info Source control is disabled
+[2016.08.05-20.03.52:693][  0]SourceControl: Info Source control is disabled
+[2016.08.05-20.03.52:702][  0]SourceControl: Info Source control is disabled
+[2016.08.05-20.03.52:905][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.08.05-20.03.52:905][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.08.05-20.03.52:947][  0]LogEngine: Initializing Engine...
+[2016.08.05-20.03.52:951][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.05-20.03.52:951][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.05-20.03.53:066][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.05-20.03.53:071][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.05-20.03.53:078][  0]LogInit: FAudioDevice initialized.
+[2016.08.05-20.03.53:097][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Paul/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.08.05-20.03.53:101][  0]LogInit: Texture streaming: Enabled
+[2016.08.05-20.03.53:106][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.05-20.03.53:106][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.08.05-20.03.53:106][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 33ad87aa481fd478238a16a7ed7973a1|eeca19f8cc0e4b789d63a89e07c58255|899863c0-634b-405a-83a8-2e0f3c403d37
+[2016.08.05-20.03.53:106][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.08.05-20.03.53:112][  0]LogInit: Transaction tracking system initialized
+[2016.08.05-20.03.53:137][  0]BlueprintLog: New page: Editor Load
+[2016.08.05-20.03.53:194][  0]LocalizationService: Info Localization service is disabled
+[2016.08.05-20.03.53:251][  0]LogConsoleResponse:Display: 
+[2016.08.05-20.03.53:342][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.05-20.03.53:382][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/' took 0.01s
+[2016.08.05-20.03.53:382][  0]SourceControl: Info Source control is disabled
+[2016.08.05-20.03.53:382][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/RollerMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-20.03.53:383][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/RollerMap.umap'
+[2016.08.05-20.03.53:383][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-20.03.53:451][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.812ms to complete.
+[2016.08.05-20.03.53:451][  0]LogFileHelpers: Loading map 'RollerMap' took 0.069
+[2016.08.05-20.03.53:552][  0]LogCollectionManager: Loaded 0 collections in 0.001143 seconds
+[2016.08.05-20.03.53:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paul/Documents/Unreal Projects/Roller 4.10/Saved/Collections/' took 0.01s
+[2016.08.05-20.03.53:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Developers/Paul/Collections/' took 0.01s
+[2016.08.05-20.03.53:593][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Collections/' took 0.01s
+[2016.08.05-20.03.53:593][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.05-20.03.53:598][  0]LogContentBrowser: Native class hierarchy populated in 0.0050 seconds. Added 1893 classes and 338 folders.
+[2016.08.05-20.03.53:602][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.05-20.03.53:731][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.08.05-20.03.53:756][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.08.05-20.03.53:791][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 1 classes and 3 folders.
+[2016.08.05-20.03.53:833][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.05-20.03.53:838][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.05-20.03.53:861][  0]LogLoad: Full Startup: 4.29 seconds (BP compile: 0.00 seconds)
+[2016.08.05-20.03.53:869][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.05-20.03.53:873][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.05-20.03.53:926][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.05-20.03.54:026][  0]LogRenderer: Reallocating scene render targets to support 1180x572 (Frame:2).
+[2016.08.05-20.03.54:081][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/' took 0.20s
+[2016.08.05-20.03.54:091][  1]LogAssetRegistry: Asset discovery search completed in 1.5471 seconds
+[2016.08.05-20.03.54:091][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.05-20.03.54:091][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.08.05-20.03.59:128][593]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.03.59:152][593]Cmd: MAP LOAD FILE="../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Maps/MainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-20.03.59:152][593]LightingResults: New page: Lighting Build
+[2016.08.05-20.03.59:154][593]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2016.08.05-20.03.59:169][593]LoadErrors: New page: Loading map: MainMenuMap.umap
+[2016.08.05-20.03.59:169][593]MapCheck: New page: Map Check
+[2016.08.05-20.03.59:169][593]LightingResults: New page: Lighting Build
+[2016.08.05-20.03.59:179][593]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEE6F17B00
+[2016.08.05-20.03.59:203][593]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.05-20.03.59:221][593]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-20.03.59:283][593]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.541ms to complete.
+[2016.08.05-20.03.59:283][593]LogFileHelpers: Loading map 'MainMenuMap' took 0.133
+[2016.08.05-20.04.00:697][746]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.04.00:712][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Coin_Super.Coin_Super_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:727][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Crate_Black.Crate_Black_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:736][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Crate_Blue.Crate_Blue_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:745][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Crate_Gold.Crate_Gold_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:753][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Crate_Green.Crate_Green_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:760][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Crate_Red.Crate_Red_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:773][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Door_Blue.Door_Blue_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:779][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Door_Green.Door_Green_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:787][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Door_Red.Door_Red_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.00:925][746]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Crate_Gold_One.Crate_Gold_One_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.01:110][746]LogAIModule: Creating AISystem for world MapOne
+[2016.08.05-20.04.01:163][746]Cmd: MAP LOAD FILE="../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Maps/MapOne.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-20.04.01:163][746]LightingResults: New page: Lighting Build
+[2016.08.05-20.04.01:179][746]LoadErrors: New page: Loading map: MapOne.umap
+[2016.08.05-20.04.01:180][746]MapCheck: New page: Map Check
+[2016.08.05-20.04.01:180][746]LightingResults: New page: Lighting Build
+[2016.08.05-20.04.01:190][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AED9D4CFE0
+[2016.08.05-20.04.01:267][746]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.05-20.04.01:295][746]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-20.04.01:368][746]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.422ms to complete.
+[2016.08.05-20.04.01:369][746]LogFileHelpers: Loading map 'MapOne' took 0.206
+[2016.08.05-20.04.02:513][863]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Objects/Crate_Gold_Three.Crate_Gold_Three_C:UserConstructionScript; removing parent information, but keeping function
+[2016.08.05-20.04.02:585][863]LogAIModule: Creating AISystem for world MapThree
+[2016.08.05-20.04.02:620][863]Cmd: MAP LOAD FILE="../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Maps/MapThree.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-20.04.02:620][863]LightingResults: New page: Lighting Build
+[2016.08.05-20.04.02:637][863]LoadErrors: New page: Loading map: MapThree.umap
+[2016.08.05-20.04.02:639][863]MapCheck: New page: Map Check
+[2016.08.05-20.04.02:639][863]LightingResults: New page: Lighting Build
+[2016.08.05-20.04.02:651][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE9089D260
+[2016.08.05-20.04.02:729][863]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.05-20.04.02:750][863]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-20.04.02:823][863]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.102ms to complete.
+[2016.08.05-20.04.02:824][863]LogFileHelpers: Loading map 'MapThree' took 0.205
+[2016.08.05-20.04.03:476][930]LogAIModule: Creating AISystem for world MapTwo
+[2016.08.05-20.04.03:496][930]Cmd: MAP LOAD FILE="../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Maps/MapTwo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-20.04.03:496][930]LightingResults: New page: Lighting Build
+[2016.08.05-20.04.03:514][930]LoadErrors: New page: Loading map: MapTwo.umap
+[2016.08.05-20.04.03:516][930]MapCheck: New page: Map Check
+[2016.08.05-20.04.03:516][930]LightingResults: New page: Lighting Build
+[2016.08.05-20.04.03:526][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEED109EE0
+[2016.08.05-20.04.03:598][930]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.05-20.04.03:617][930]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-20.04.03:693][930]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.818ms to complete.
+[2016.08.05-20.04.03:694][930]LogFileHelpers: Loading map 'MapTwo' took 0.199
+[2016.08.05-20.04.04:444][ 14]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.04.04:456][ 14]Cmd: MAP LOAD FILE="../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Maps/MainMenuMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.05-20.04.04:456][ 14]LightingResults: New page: Lighting Build
+[2016.08.05-20.04.04:474][ 14]LoadErrors: New page: Loading map: MainMenuMap.umap
+[2016.08.05-20.04.04:475][ 14]MapCheck: New page: Map Check
+[2016.08.05-20.04.04:475][ 14]LightingResults: New page: Lighting Build
+[2016.08.05-20.04.04:488][ 14]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEDA20FEC0
+[2016.08.05-20.04.04:540][ 14]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.05-20.04.04:558][ 14]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.05-20.04.04:632][ 14]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.525ms to complete.
+[2016.08.05-20.04.04:632][ 14]LogFileHelpers: Loading map 'MainMenuMap' took 0.177
+[2016.08.05-20.04.06:181][195]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-20.04.06:181][195]PIE: New page: PIE session: MainMenuMap (5 Aug 2016 22:04:06)
+[2016.08.05-20.04.06:181][195]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2016.08.05-20.04.06:182][195]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000439s)
+[2016.08.05-20.04.06:182][195]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.04.06:182][195]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2016.08.05-20.04.06:182][195]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.001087s)
+[2016.08.05-20.04.06:196][195]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.05-20.04.06:201][195]LogInit: FAudioDevice initialized.
+[2016.08.05-20.04.06:300][195]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/RollerGameMode.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.04.06:308][195]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.04.06:310][195]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2016.08.05-21.04.06
+[2016.08.05-20.04.06:310][195]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.04.06:310][195]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.04.06:310][195]LogWorld: Bringing up level for play took: 0.001079
+[2016.08.05-20.04.06:312][195]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.4
+[2016.08.05-20.04.07:194][290]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve MapOne.umap.
+[2016.08.05-20.04.07:251][290]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve MapOne.umap.
+[2016.08.05-20.04.07:251][290]LogNet: Browse: /Game/Maps/MapOne
+[2016.08.05-20.04.07:251][290]LogLoad: LoadMap: /Game/Maps/MapOne
+[2016.08.05-20.04.07:262][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE8F47E340
+[2016.08.05-20.04.07:264][290]Cmd: MEM
+[2016.08.05-20.04.07:275][290]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.04.07:275][290]LogMemory: Process Physical Memory: 701.83 MB used, 703.93 MB peak
+[2016.08.05-20.04.07:275][290]LogMemory: Process Virtual Memory: 1198.29 MB used, 1206.11 MB peak
+[2016.08.05-20.04.07:275][290]LogMemory: Physical Memory: 3877.08 MB used, 8133.75 MB total
+[2016.08.05-20.04.07:275][290]LogMemory: Virtual Memory: 1898.38 MB used, 134217728.00 MB total
+[2016.08.05-20.04.07:275][290]LogMemory: 
+[2016.08.05-20.04.07:275][290]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.04.07:518][290]LogAIModule: Creating AISystem for world MapOne
+[2016.08.05-20.04.07:518][290]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.04.07:562][290]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapOne.MapOne up for play (max tick rate 0) at 2016.08.05-21.04.07
+[2016.08.05-20.04.07:562][290]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.04.07:562][290]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.04.07:565][290]LogWorld: Bringing up level for play took: 0.045811
+[2016.08.05-20.04.07:565][290]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-20.04.11:296][731]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE8F3D9080
+[2016.08.05-20.06.31:910][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-20.06.31:910][395]PIE: New page: PIE session: MainMenuMap (5 Aug 2016 22:06:31)
+[2016.08.05-20.06.31:910][395]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2016.08.05-20.06.31:910][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000459s)
+[2016.08.05-20.06.31:911][395]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.06.31:911][395]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2016.08.05-20.06.31:911][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.001248s)
+[2016.08.05-20.06.31:928][395]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.05-20.06.31:934][395]LogInit: FAudioDevice initialized.
+[2016.08.05-20.06.31:968][395]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.06.31:969][395]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2016.08.05-21.06.31
+[2016.08.05-20.06.31:969][395]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.06.31:970][395]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.06.31:970][395]LogWorld: Bringing up level for play took: 0.000954
+[2016.08.05-20.06.31:972][395]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.059
+[2016.08.05-20.06.33:242][540]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve MapOne.umap.
+[2016.08.05-20.06.33:300][540]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve MapOne.umap.
+[2016.08.05-20.06.33:300][540]LogNet: Browse: /Game/Maps/MapOne
+[2016.08.05-20.06.33:300][540]LogLoad: LoadMap: /Game/Maps/MapOne
+[2016.08.05-20.06.33:311][540]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE9A11E480
+[2016.08.05-20.06.33:311][540]Cmd: MEM
+[2016.08.05-20.06.33:323][540]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.06.33:323][540]LogMemory: Process Physical Memory: 753.76 MB used, 778.36 MB peak
+[2016.08.05-20.06.33:323][540]LogMemory: Process Virtual Memory: 1203.04 MB used, 1289.22 MB peak
+[2016.08.05-20.06.33:323][540]LogMemory: Physical Memory: 3888.52 MB used, 8133.75 MB total
+[2016.08.05-20.06.33:323][540]LogMemory: Virtual Memory: 1970.32 MB used, 134217728.00 MB total
+[2016.08.05-20.06.33:323][540]LogMemory: 
+[2016.08.05-20.06.33:323][540]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.06.33:342][540]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.06.33:544][540]LogAIModule: Creating AISystem for world MapOne
+[2016.08.05-20.06.33:545][540]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.06.33:587][540]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapOne.MapOne up for play (max tick rate 0) at 2016.08.05-21.06.33
+[2016.08.05-20.06.33:587][540]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.06.33:588][540]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.06.33:591][540]LogWorld: Bringing up level for play took: 0.045905
+[2016.08.05-20.06.33:592][540]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-20.06.41:284][457]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEF1FB62A0
+[2016.08.05-20.06.50:098][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-20.06.50:098][514]PIE: New page: PIE session: MainMenuMap (5 Aug 2016 22:06:50)
+[2016.08.05-20.06.50:098][514]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2016.08.05-20.06.50:098][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000415s)
+[2016.08.05-20.06.50:099][514]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.06.50:099][514]LogPlayLevel: PIE: World Init took: (0.000445s)
+[2016.08.05-20.06.50:099][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.000999s)
+[2016.08.05-20.06.50:113][514]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.05-20.06.50:118][514]LogInit: FAudioDevice initialized.
+[2016.08.05-20.06.50:154][514]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.06.50:155][514]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2016.08.05-21.06.50
+[2016.08.05-20.06.50:155][514]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.06.50:155][514]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.06.50:155][514]LogWorld: Bringing up level for play took: 0.000834
+[2016.08.05-20.06.50:157][514]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.244
+[2016.08.05-20.06.51:731][696]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve MapOne.umap.
+[2016.08.05-20.06.51:787][696]LogPackageName: SearchForPackageOnDisk took   0.055s to resolve MapOne.umap.
+[2016.08.05-20.06.51:787][696]LogNet: Browse: /Game/Maps/MapOne
+[2016.08.05-20.06.51:787][696]LogLoad: LoadMap: /Game/Maps/MapOne
+[2016.08.05-20.06.51:800][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEE5246AC0
+[2016.08.05-20.06.51:801][696]Cmd: MEM
+[2016.08.05-20.06.51:812][696]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.06.51:812][696]LogMemory: Process Physical Memory: 751.20 MB used, 778.36 MB peak
+[2016.08.05-20.06.51:812][696]LogMemory: Process Virtual Memory: 1197.50 MB used, 1289.22 MB peak
+[2016.08.05-20.06.51:812][696]LogMemory: Physical Memory: 3894.17 MB used, 8133.75 MB total
+[2016.08.05-20.06.51:812][696]LogMemory: Virtual Memory: 1970.32 MB used, 134217728.00 MB total
+[2016.08.05-20.06.51:812][696]LogMemory: 
+[2016.08.05-20.06.51:812][696]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.06.51:832][696]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.06.51:900][696]LogAIModule: Creating AISystem for world MapOne
+[2016.08.05-20.06.51:900][696]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.06.51:941][696]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapOne.MapOne up for play (max tick rate 0) at 2016.08.05-21.06.51
+[2016.08.05-20.06.51:941][696]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.06.51:942][696]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.06.51:946][696]LogWorld: Bringing up level for play took: 0.045261
+[2016.08.05-20.06.51:947][696]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-20.07.02:400][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE8F3D98A0
+[2016.08.05-20.07.07:035][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-20.07.07:035][304]PIE: New page: PIE session: MainMenuMap (5 Aug 2016 22:07:07)
+[2016.08.05-20.07.07:035][304]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2016.08.05-20.07.07:036][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000381s)
+[2016.08.05-20.07.07:036][304]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.07.07:036][304]LogPlayLevel: PIE: World Init took: (0.000415s)
+[2016.08.05-20.07.07:036][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.000934s)
+[2016.08.05-20.07.07:052][304]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.05-20.07.07:057][304]LogInit: FAudioDevice initialized.
+[2016.08.05-20.07.07:088][304]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.07.07:089][304]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2016.08.05-21.07.07
+[2016.08.05-20.07.07:089][304]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.07.07:089][304]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.07.07:089][304]LogWorld: Bringing up level for play took: 0.000931
+[2016.08.05-20.07.07:091][304]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap -0.821
+[2016.08.05-20.07.07:935][399]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve MapOne.umap.
+[2016.08.05-20.07.07:995][399]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve MapOne.umap.
+[2016.08.05-20.07.07:995][399]LogNet: Browse: /Game/Maps/MapOne
+[2016.08.05-20.07.07:995][399]LogLoad: LoadMap: /Game/Maps/MapOne
+[2016.08.05-20.07.08:005][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AED97BEC00
+[2016.08.05-20.07.08:005][399]Cmd: MEM
+[2016.08.05-20.07.08:013][399]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.07.08:013][399]LogMemory: Process Physical Memory: 763.70 MB used, 778.36 MB peak
+[2016.08.05-20.07.08:013][399]LogMemory: Process Virtual Memory: 1220.01 MB used, 1289.22 MB peak
+[2016.08.05-20.07.08:013][399]LogMemory: Physical Memory: 3439.18 MB used, 8133.75 MB total
+[2016.08.05-20.07.08:013][399]LogMemory: Virtual Memory: 1986.32 MB used, 134217728.00 MB total
+[2016.08.05-20.07.08:013][399]LogMemory: 
+[2016.08.05-20.07.08:013][399]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.07.08:031][399]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.07.08:096][399]LogAIModule: Creating AISystem for world MapOne
+[2016.08.05-20.07.08:097][399]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.07.08:135][399]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapOne.MapOne up for play (max tick rate 0) at 2016.08.05-21.07.08
+[2016.08.05-20.07.08:135][399]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.07.08:136][399]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.07.08:138][399]LogWorld: Bringing up level for play took: 0.040464
+[2016.08.05-20.07.08:138][399]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-20.07.27:510][719]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE9052C9A0
+[2016.08.05-20.07.30:826][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.05-20.07.30:826][881]PIE: New page: PIE session: MainMenuMap (5 Aug 2016 22:07:30)
+[2016.08.05-20.07.30:826][881]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2016.08.05-20.07.30:827][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000400s)
+[2016.08.05-20.07.30:827][881]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.07.30:827][881]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2016.08.05-20.07.30:827][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.000998s)
+[2016.08.05-20.07.30:847][881]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.05-20.07.30:855][881]LogInit: FAudioDevice initialized.
+[2016.08.05-20.07.30:885][881]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.07.30:886][881]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2016.08.05-21.07.30
+[2016.08.05-20.07.30:886][881]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.07.30:886][881]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.07.30:886][881]LogWorld: Bringing up level for play took: 0.000866
+[2016.08.05-20.07.30:888][881]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MainMenuMap 0.976
+[2016.08.05-20.07.31:983][  6]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve MapOne.umap.
+[2016.08.05-20.07.32:040][  6]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve MapOne.umap.
+[2016.08.05-20.07.32:040][  6]LogNet: Browse: /Game/Maps/MapOne
+[2016.08.05-20.07.32:040][  6]LogLoad: LoadMap: /Game/Maps/MapOne
+[2016.08.05-20.07.32:052][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AED7541760
+[2016.08.05-20.07.32:052][  6]Cmd: MEM
+[2016.08.05-20.07.32:064][  6]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.07.32:064][  6]LogMemory: Process Physical Memory: 763.91 MB used, 778.36 MB peak
+[2016.08.05-20.07.32:064][  6]LogMemory: Process Virtual Memory: 1221.39 MB used, 1289.22 MB peak
+[2016.08.05-20.07.32:064][  6]LogMemory: Physical Memory: 3882.17 MB used, 8133.75 MB total
+[2016.08.05-20.07.32:064][  6]LogMemory: Virtual Memory: 1990.32 MB used, 134217728.00 MB total
+[2016.08.05-20.07.32:064][  6]LogMemory: 
+[2016.08.05-20.07.32:064][  6]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.07.32:082][  6]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.07.32:151][  6]LogAIModule: Creating AISystem for world MapOne
+[2016.08.05-20.07.32:152][  6]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.07.32:196][  6]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapOne.MapOne up for play (max tick rate 0) at 2016.08.05-21.07.32
+[2016.08.05-20.07.32:196][  6]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.07.32:197][  6]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapOne.MapOne:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.07.32:199][  6]LogWorld: Bringing up level for play took: 0.046511
+[2016.08.05-20.07.32:199][  6]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-20.09.02:274][805]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve MainMenuMap.umap.
+[2016.08.05-20.09.02:335][806]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve MainMenuMap.umap.
+[2016.08.05-20.09.02:335][806]LogNet: Browse: /Game/Maps/MainMenuMap
+[2016.08.05-20.09.02:335][806]LogLoad: LoadMap: /Game/Maps/MainMenuMap
+[2016.08.05-20.09.02:347][806]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEDBEAB560
+[2016.08.05-20.09.02:349][806]Cmd: MEM
+[2016.08.05-20.09.02:361][806]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.09.02:361][806]LogMemory: Process Physical Memory: 761.72 MB used, 778.36 MB peak
+[2016.08.05-20.09.02:361][806]LogMemory: Process Virtual Memory: 1224.90 MB used, 1289.22 MB peak
+[2016.08.05-20.09.02:361][806]LogMemory: Physical Memory: 3878.29 MB used, 8133.75 MB total
+[2016.08.05-20.09.02:361][806]LogMemory: Virtual Memory: 1994.27 MB used, 134217728.00 MB total
+[2016.08.05-20.09.02:361][806]LogMemory: 
+[2016.08.05-20.09.02:361][806]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.09.02:361][806]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2016.08.05-20.09.02:361][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000505s)
+[2016.08.05-20.09.02:362][806]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.09.02:362][806]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.08.05-20.09.02:362][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.001212s)
+[2016.08.05-20.09.02:362][806]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.09.02:363][806]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2016.08.05-21.09.02
+[2016.08.05-20.09.02:363][806]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.09.02:364][806]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.09.02:364][806]LogWorld: Bringing up level for play took: 0.001051
+[2016.08.05-20.09.02:364][806]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-20.09.03:925][987]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve MapTwo.umap.
+[2016.08.05-20.09.03:981][987]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve MapTwo.umap.
+[2016.08.05-20.09.03:981][987]LogNet: Browse: /Game/Maps/MapTwo
+[2016.08.05-20.09.03:982][987]LogLoad: LoadMap: /Game/Maps/MapTwo
+[2016.08.05-20.09.03:997][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE80FD5B20
+[2016.08.05-20.09.03:998][987]Cmd: MEM
+[2016.08.05-20.09.04:008][987]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.09.04:008][987]LogMemory: Process Physical Memory: 761.73 MB used, 778.36 MB peak
+[2016.08.05-20.09.04:008][987]LogMemory: Process Virtual Memory: 1281.22 MB used, 1289.22 MB peak
+[2016.08.05-20.09.04:008][987]LogMemory: Physical Memory: 3878.32 MB used, 8133.75 MB total
+[2016.08.05-20.09.04:008][987]LogMemory: Virtual Memory: 2034.27 MB used, 134217728.00 MB total
+[2016.08.05-20.09.04:008][987]LogMemory: 
+[2016.08.05-20.09.04:008][987]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.09.04:022][987]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.09.04:078][987]LogAIModule: Creating AISystem for world MapTwo
+[2016.08.05-20.09.04:079][987]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.09.04:089][987]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTwo.MapTwo up for play (max tick rate 0) at 2016.08.05-21.09.04
+[2016.08.05-20.09.04:089][987]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapTwo.MapTwo:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.09.04:090][987]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapTwo.MapTwo:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.09.04:090][987]LogWorld: Bringing up level for play took: 0.010877
+[2016.08.05-20.09.34:635][645]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve MapTwo.umap.
+[2016.08.05-20.09.34:694][646]LogPackageName: SearchForPackageOnDisk took   0.055s to resolve MapTwo.umap.
+[2016.08.05-20.09.34:694][646]LogNet: Browse: /Game/Maps/MapTwo
+[2016.08.05-20.09.34:694][646]LogLoad: LoadMap: /Game/Maps/MapTwo
+[2016.08.05-20.09.34:713][646]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEE5244FE0
+[2016.08.05-20.09.34:713][646]Cmd: MEM
+[2016.08.05-20.09.34:726][646]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.09.34:726][646]LogMemory: Process Physical Memory: 764.63 MB used, 778.36 MB peak
+[2016.08.05-20.09.34:726][646]LogMemory: Process Virtual Memory: 1223.44 MB used, 1319.04 MB peak
+[2016.08.05-20.09.34:726][646]LogMemory: Physical Memory: 3896.43 MB used, 8133.75 MB total
+[2016.08.05-20.09.34:726][646]LogMemory: Virtual Memory: 2018.33 MB used, 134217728.00 MB total
+[2016.08.05-20.09.34:726][646]LogMemory: 
+[2016.08.05-20.09.34:726][646]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.09.34:743][646]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.09.34:798][646]LogAIModule: Creating AISystem for world MapTwo
+[2016.08.05-20.09.34:798][646]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.09.34:809][646]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapTwo.MapTwo up for play (max tick rate 0) at 2016.08.05-21.09.34
+[2016.08.05-20.09.34:809][646]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapTwo.MapTwo:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.09.34:809][646]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapTwo.MapTwo:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.09.34:810][646]LogWorld: Bringing up level for play took: 0.010808
+[2016.08.05-20.10.43:821][920]LogPackageName: SearchForPackageOnDisk took   0.055s to resolve MainMenuMap.umap.
+[2016.08.05-20.10.43:884][921]LogPackageName: SearchForPackageOnDisk took   0.059s to resolve MainMenuMap.umap.
+[2016.08.05-20.10.43:884][921]LogNet: Browse: /Game/Maps/MainMenuMap
+[2016.08.05-20.10.43:884][921]LogLoad: LoadMap: /Game/Maps/MainMenuMap
+[2016.08.05-20.10.43:898][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEE5247420
+[2016.08.05-20.10.43:900][921]Cmd: MEM
+[2016.08.05-20.10.43:910][921]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.10.43:910][921]LogMemory: Process Physical Memory: 767.32 MB used, 778.36 MB peak
+[2016.08.05-20.10.43:910][921]LogMemory: Process Virtual Memory: 1226.70 MB used, 1319.04 MB peak
+[2016.08.05-20.10.43:910][921]LogMemory: Physical Memory: 3885.75 MB used, 8133.75 MB total
+[2016.08.05-20.10.43:910][921]LogMemory: Virtual Memory: 1994.33 MB used, 134217728.00 MB total
+[2016.08.05-20.10.43:910][921]LogMemory: 
+[2016.08.05-20.10.43:910][921]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.10.43:910][921]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2016.08.05-20.10.43:911][921]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000432s)
+[2016.08.05-20.10.43:911][921]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.10.43:911][921]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2016.08.05-20.10.43:911][921]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.001038s)
+[2016.08.05-20.10.43:911][921]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.10.43:912][921]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2016.08.05-21.10.43
+[2016.08.05-20.10.43:912][921]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.10.43:913][921]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.10.43:913][921]LogWorld: Bringing up level for play took: 0.000821
+[2016.08.05-20.10.43:913][921]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-20.10.45:282][ 79]LogPackageName: SearchForPackageOnDisk took   0.057s to resolve MapThree.umap.
+[2016.08.05-20.10.45:343][ 79]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve MapThree.umap.
+[2016.08.05-20.10.45:343][ 79]LogNet: Browse: /Game/Maps/MapThree
+[2016.08.05-20.10.45:343][ 79]LogLoad: LoadMap: /Game/Maps/MapThree
+[2016.08.05-20.10.45:354][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE8F3DB060
+[2016.08.05-20.10.45:354][ 79]Cmd: MEM
+[2016.08.05-20.10.45:365][ 79]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.10.45:365][ 79]LogMemory: Process Physical Memory: 767.64 MB used, 778.36 MB peak
+[2016.08.05-20.10.45:365][ 79]LogMemory: Process Virtual Memory: 1284.44 MB used, 1319.04 MB peak
+[2016.08.05-20.10.45:365][ 79]LogMemory: Physical Memory: 3888.02 MB used, 8133.75 MB total
+[2016.08.05-20.10.45:365][ 79]LogMemory: Virtual Memory: 2042.33 MB used, 134217728.00 MB total
+[2016.08.05-20.10.45:365][ 79]LogMemory: 
+[2016.08.05-20.10.45:365][ 79]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.10.45:379][ 79]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.10.45:456][ 79]LogAIModule: Creating AISystem for world MapThree
+[2016.08.05-20.10.45:457][ 79]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.10.45:481][ 79]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapThree.MapThree up for play (max tick rate 0) at 2016.08.05-21.10.45
+[2016.08.05-20.10.45:481][ 79]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapThree.MapThree:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.10.45:481][ 79]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapThree.MapThree:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.10.45:482][ 79]LogWorld: Bringing up level for play took: 0.024296
+[2016.08.05-20.12.09:235][121]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve MapThree.umap.
+[2016.08.05-20.12.09:304][122]LogPackageName: SearchForPackageOnDisk took   0.063s to resolve MapThree.umap.
+[2016.08.05-20.12.09:304][122]LogNet: Browse: /Game/Maps/MapThree
+[2016.08.05-20.12.09:304][122]LogLoad: LoadMap: /Game/Maps/MapThree
+[2016.08.05-20.12.09:316][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEDBEAB240
+[2016.08.05-20.12.09:317][122]Cmd: MEM
+[2016.08.05-20.12.09:328][122]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.12.09:328][122]LogMemory: Process Physical Memory: 773.95 MB used, 778.36 MB peak
+[2016.08.05-20.12.09:328][122]LogMemory: Process Virtual Memory: 1235.99 MB used, 1319.04 MB peak
+[2016.08.05-20.12.09:328][122]LogMemory: Physical Memory: 3893.63 MB used, 8133.75 MB total
+[2016.08.05-20.12.09:328][122]LogMemory: Virtual Memory: 2002.33 MB used, 134217728.00 MB total
+[2016.08.05-20.12.09:328][122]LogMemory: 
+[2016.08.05-20.12.09:328][122]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.12.09:343][122]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.12.09:420][122]LogAIModule: Creating AISystem for world MapThree
+[2016.08.05-20.12.09:420][122]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.12.09:446][122]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapThree.MapThree up for play (max tick rate 0) at 2016.08.05-21.12.09
+[2016.08.05-20.12.09:446][122]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapThree.MapThree:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.12.09:446][122]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapThree.MapThree:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.12.09:447][122]LogWorld: Bringing up level for play took: 0.026571
+[2016.08.05-20.12.36:062][308]LogPackageName: SearchForPackageOnDisk took   0.062s to resolve MapThree.umap.
+[2016.08.05-20.12.36:132][309]LogPackageName: SearchForPackageOnDisk took   0.064s to resolve MapThree.umap.
+[2016.08.05-20.12.36:132][309]LogNet: Browse: /Game/Maps/MapThree
+[2016.08.05-20.12.36:132][309]LogLoad: LoadMap: /Game/Maps/MapThree
+[2016.08.05-20.12.36:145][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE9052E020
+[2016.08.05-20.12.36:147][309]Cmd: MEM
+[2016.08.05-20.12.36:159][309]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.12.36:159][309]LogMemory: Process Physical Memory: 775.93 MB used, 781.80 MB peak
+[2016.08.05-20.12.36:159][309]LogMemory: Process Virtual Memory: 1240.07 MB used, 1319.04 MB peak
+[2016.08.05-20.12.36:159][309]LogMemory: Physical Memory: 3895.29 MB used, 8133.75 MB total
+[2016.08.05-20.12.36:159][309]LogMemory: Virtual Memory: 2014.33 MB used, 134217728.00 MB total
+[2016.08.05-20.12.36:159][309]LogMemory: 
+[2016.08.05-20.12.36:159][309]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.12.36:175][309]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.12.36:251][309]LogAIModule: Creating AISystem for world MapThree
+[2016.08.05-20.12.36:251][309]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.12.36:275][309]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapThree.MapThree up for play (max tick rate 0) at 2016.08.05-21.12.36
+[2016.08.05-20.12.36:275][309]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapThree.MapThree:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.12.36:275][309]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapThree.MapThree:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.12.36:276][309]LogWorld: Bringing up level for play took: 0.024575
+[2016.08.05-20.13.02:125][404]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve MapThree.umap.
+[2016.08.05-20.13.02:186][405]LogPackageName: SearchForPackageOnDisk took   0.056s to resolve MapThree.umap.
+[2016.08.05-20.13.02:186][405]LogNet: Browse: /Game/Maps/MapThree
+[2016.08.05-20.13.02:186][405]LogLoad: LoadMap: /Game/Maps/MapThree
+[2016.08.05-20.13.02:208][405]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEDAA4E520
+[2016.08.05-20.13.02:208][405]Cmd: MEM
+[2016.08.05-20.13.02:217][405]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.13.02:217][405]LogMemory: Process Physical Memory: 779.51 MB used, 782.96 MB peak
+[2016.08.05-20.13.02:217][405]LogMemory: Process Virtual Memory: 1243.18 MB used, 1319.04 MB peak
+[2016.08.05-20.13.02:217][405]LogMemory: Physical Memory: 3898.52 MB used, 8133.75 MB total
+[2016.08.05-20.13.02:217][405]LogMemory: Virtual Memory: 2001.33 MB used, 134217728.00 MB total
+[2016.08.05-20.13.02:217][405]LogMemory: 
+[2016.08.05-20.13.02:217][405]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.13.02:233][405]LogLinker:Warning: Asset '../../../../../../Users/Paul/Documents/Unreal Projects/Roller 4.10/Content/Textures/CoinTex.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.05-20.13.02:308][405]LogAIModule: Creating AISystem for world MapThree
+[2016.08.05-20.13.02:308][405]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.13.02:335][405]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MapThree.MapThree up for play (max tick rate 0) at 2016.08.05-21.13.02
+[2016.08.05-20.13.02:335][405]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MapThree.MapThree:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.13.02:335][405]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MapThree.MapThree:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.13.02:336][405]LogWorld: Bringing up level for play took: 0.027671
+[2016.08.05-20.13.40:877][ 22]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve MainMenuMap.umap.
+[2016.08.05-20.13.40:938][ 23]LogPackageName: SearchForPackageOnDisk took   0.058s to resolve MainMenuMap.umap.
+[2016.08.05-20.13.40:938][ 23]LogNet: Browse: /Game/Maps/MainMenuMap
+[2016.08.05-20.13.40:938][ 23]LogLoad: LoadMap: /Game/Maps/MainMenuMap
+[2016.08.05-20.13.40:953][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEDAA4DC60
+[2016.08.05-20.13.40:953][ 23]Cmd: MEM
+[2016.08.05-20.13.40:968][ 23]LogMemory: Platform Memory Stats for Windows
+[2016.08.05-20.13.40:968][ 23]LogMemory: Process Physical Memory: 784.70 MB used, 787.51 MB peak
+[2016.08.05-20.13.40:968][ 23]LogMemory: Process Virtual Memory: 1251.16 MB used, 1319.04 MB peak
+[2016.08.05-20.13.40:968][ 23]LogMemory: Physical Memory: 3904.28 MB used, 8133.75 MB total
+[2016.08.05-20.13.40:968][ 23]LogMemory: Virtual Memory: 2017.35 MB used, 134217728.00 MB total
+[2016.08.05-20.13.40:968][ 23]LogMemory: 
+[2016.08.05-20.13.40:968][ 23]Allocator Stats for TBB: (not implemented)
+[2016.08.05-20.13.40:968][ 23]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2016.08.05-20.13.40:968][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000495s)
+[2016.08.05-20.13.40:969][ 23]LogAIModule: Creating AISystem for world MainMenuMap
+[2016.08.05-20.13.40:969][ 23]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2016.08.05-20.13.40:969][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.001190s)
+[2016.08.05-20.13.40:969][ 23]LogWorld: Game class is 'RollerGameMode_C'
+[2016.08.05-20.13.40:971][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 0) at 2016.08.05-21.13.40
+[2016.08.05-20.13.40:971][ 23]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.13.40:971][ 23]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.05-20.13.40:972][ 23]LogWorld: Bringing up level for play took: 0.001822
+[2016.08.05-20.13.40:972][ 23]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.08.05-20.13.43:308][298]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEDBEAAD40
+[2016.08.05-21.20.19:623][609]Cmd: QUIT_EDITOR
+[2016.08.05-21.20.20:580][609]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.05-21.20.20:619][609]LogExit: Preparing to exit.
+[2016.08.05-21.20.20:988][609]LogExit: Editor shut down
+[2016.08.05-21.20.20:988][609]LogExit: Transaction tracking system shut down
+[2016.08.05-21.20.20:990][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AED9D4CC20
+[2016.08.05-21.20.20:990][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEFF79FEC0
+[2016.08.05-21.20.20:990][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AEDA20D6C0
+[2016.08.05-21.20.20:991][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001AE9085FBA0
+[2016.08.05-21.20.21:091][609]LogExit: Object subsystem successfully closed.
+[2016.08.05-21.20.21:103][609]LogD3D11RHI: Shutdown
+[2016.08.05-21.20.21:103][609]LogD3D11RHI: CleanupD3DDevice
+[2016.08.05-21.20.21:145][609]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.05-21.20.21:160][609]LogModuleManager: Shutting down and abandoning module StatsViewer (199)
+[2016.08.05-21.20.21:160][609]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.08.05-21.20.21:160][609]LogModuleManager: Shutting down and abandoning module WorldBrowser (197)
+[2016.08.05-21.20.21:160][609]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.08.05-21.20.21:160][609]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.08.05-21.20.21:160][609]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.08.05-21.20.21:160][609]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.08.05-21.20.21:161][609]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.08.05-21.20.21:162][609]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.08.05-21.20.21:162][609]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.08.05-21.20.21:162][609]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.08.05-21.20.21:162][609]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.08.05-21.20.21:162][609]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.08.05-21.20.21:665][609]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.08.05-21.20.21:665][609]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.08.05-21.20.21:665][609]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.08.05-21.20.21:665][609]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.08.05-21.20.21:665][609]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.08.05-21.20.21:665][609]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.08.05-21.20.21:666][609]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.08.05-21.20.21:894][609]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.08.05-21.20.21:894][609]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.08.05-21.20.21:894][609]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.08.05-21.20.21:894][609]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.08.05-21.20.21:894][609]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.08.05-21.20.21:894][609]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.08.05-21.20.21:894][609]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.08.05-21.20.21:894][609]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.08.05-21.20.21:902][609]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.08.05-21.20.21:903][609]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.08.05-21.20.21:903][609]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.08.05-21.20.21:971][609]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.08.05-21.20.21:972][609]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.08.05-21.20.21:972][609]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.08.05-21.20.22:073][609]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.08.05-21.20.22:073][609]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.08.05-21.20.22:073][609]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.08.05-21.20.22:074][609]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.08.05-21.20.22:074][609]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.08.05-21.20.22:075][609]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.08.05-21.20.22:077][609]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.08.05-21.20.22:159][609]LogDerivedDataCache: Shutdown
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.05-21.20.22:159][609]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.05-21.20.23:160][609]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.05-21.20.23:160][609]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.05-21.20.23:160][609]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.05-21.20.23:160][609]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.05-21.20.23:160][609]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.05-21.20.23:160][609]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.05-21.20.23:160][609]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.05-21.20.23:161][609]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.05-21.20.23:162][609]LogExit: Exiting.
+[2016.08.05-21.20.23:170][609]Log file closed, 08/05/16 22:20:23
